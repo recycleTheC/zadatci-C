@@ -17,8 +17,6 @@ int main() {
 		scanf("%d", pokBr + i);
 	}
 
-	pokBr = &broj[0];
-
 	sredina = arsr(pokBr);
 
 	if (sredina == -1) {

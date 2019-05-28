@@ -15,8 +15,6 @@ int main() {
 	printf("Upisi rijec: ");
 	gets(pokR);
 
-	pokR = &r[0];
-
 	ascii(pokR);
 
 	return 0;
