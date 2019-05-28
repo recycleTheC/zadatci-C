@@ -12,7 +12,6 @@
 int main() {
 
 	int i, broj[5];
-	char ascii[5];
 	FILE* fp;
 
 	fp = fopen("brojevi.bin", "w+");
