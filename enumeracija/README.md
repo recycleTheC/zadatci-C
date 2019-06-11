@@ -59,3 +59,7 @@ enum ime_enumeracije {
 };
 
 ```
+
+Za detaljnije pojašnjenje enumeracija pročitati izvor ili pogledati zadatke!
+
+Izvor: [Programski jezik C, M. Jurak](https://web.math.pmf.unizg.hr/~singer/Prog_Add/c.pdf)
