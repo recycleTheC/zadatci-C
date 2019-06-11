@@ -24,7 +24,7 @@ pok=&variable;
 
 pokazivaču `pok` pridružena adresa varijable `variable`.
 
-Primjer korištenja pokazivača u funkcijama:
+Korištenje pokazivača u funkcijama:
 
 ```C
 
@@ -34,6 +34,21 @@ void zamjena(int *px, int *py) {
     *px=*py; // * označava vrijednost -> vrijednost varijable na adresi u pokazivaču py će biti pohranjena u varijablu na adresi u pokazivaču px
     *py=temp;
 
+}
+
+```
+
+Korištenje pokazivača i polja:
+
+```C
+
+int brojevi[5], *pokBr, i;
+
+pokBr=&brojevi[0]; // Pokazivač ima adresu prvog elementa polja
+
+for(i=0;i<5;i++){
+    printf("Upisi %d. broj: ", i+1);
+    scanf("%d", (pokBr+i)); // Funkcija scanf() pohranit će učitani broj na adresi prvog elementa polja uvećanoj za i
 }
 
 ```
