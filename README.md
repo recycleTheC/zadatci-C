@@ -13,3 +13,4 @@ Ukoliko uočite pogrešku u kodu, prijavite ju putem GitHuba!
 Svoje prijedloge također možete podijenti ovim putem!
 
 // (c) recycleTheC 2019. - Tehnička škola Ruđera Boškovića
+Gitlab
