@@ -5,7 +5,7 @@ Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!
 
 ## Gradivo
 
-### [Funkcije](funkcije/README.md)
+### [Funkcije](funkcije/)
 
 Ukoliko uočite pogrešku u kodu, prijavite ju putem GitHuba!
 Svoje prijedloge također možete podijenti ovim putem!
