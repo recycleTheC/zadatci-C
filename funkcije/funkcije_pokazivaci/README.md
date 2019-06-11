@@ -18,7 +18,7 @@ Ako je `variable` varijabla danog tipa, a `pok` pokazivač na taj tip, onda je n
 
 ```C
 
-pok=&variable
+pok=&variable;
 
 ```
 
