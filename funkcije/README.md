@@ -138,7 +138,6 @@ Rezultat izvršavanja programa će biti:
 Izvan funkcije x=5
 Unutar funkcije x=6
 Nakon poziva funkcije x=5
-
 ```
 
 Za detaljnije pojašnjenje funkcija pročitati izvor ili pogledati zadatke!
