@@ -6,6 +6,7 @@ Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!
 ## Gradivo
 
 ### [Funkcije](funkcije/)
+### [Pokazivači](funkcije/funkcije_pokazivaci)
 ### [Enumeracije](enumeracija/)
 
 Ukoliko uočite pogrešku u kodu, prijavite ju putem GitHuba!
