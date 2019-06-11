@@ -62,7 +62,7 @@ int funkcija(int x, int y){
 
 ## Pozivanje funkcija
 
-Funkcije se u programu pmogu pozvati na više različitih načina:
+Funkcije se u programu mogu pozvati na više različitih načina:
 
 Funkcija `void` tipa:
 
