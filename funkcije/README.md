@@ -62,10 +62,34 @@ int funkcija(int x, int y){
 
 ## Pozivanje funkcija
 
+Funkcije se u programu pmogu pozvati na više različitih načina:
+
+Funkcija `void` tipa:
+
 ```C
 int main(){
 
-    poziv_funkcije(argumnet);
+    naziv_funkcije(argument);
+
+}
+```
+
+Funkcija tipa različitog od `void` tipa, npr. `int`:
+
+```C
+int main(){
+
+    int rez;
+
+    rez=naziv_funkcije(argument);  // Rezultat funkcije sprema se u varijablu
+
+}
+```
+
+```C
+int main(){
+
+    printf("Rezultat: %d\n", naziv_funkcije(argument));
 
 }
 ```
