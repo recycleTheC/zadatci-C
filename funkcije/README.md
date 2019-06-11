@@ -94,6 +94,53 @@ int main(){
 }
 ```
 
+## Prijenos i manipulacija argumentima
+
+Argumenti deklarirani u definiciji funkcije nazivaju se formalni argumenti.
+Izrazi koji se pri pozivu funkcije nalaze na mjestima formalnih argumenata
+nazivaju se stvarni argumenti.
+Prilikom poziva funkcije stvarni argumenti se izračunavaju (ako su izrazi)
+i kopiraju u formalne argumente. **Funkcija prima kopije stvarnih argumenata
+što znači da ne može izmijeniti stvarne argumente.** Zbog toga se u funkcijama koriste **pokazivači**. 
+
+Sljedeći primjer ilustrira način prijenosa argumenata:
+
+```C
+#include <stdio.h>
+
+void f(int x);
+
+int main(){
+
+    int x=5;
+
+    printf("Izvan funkcije x=%d\n",x);
+
+    f(x);
+
+    printf("Nakon poziva funkcije x=%d\n",x);
+
+    return 0;
+}
+
+void f(int x){
+
+x=x+1;
+printf("Unutar funkcije x=%d\n",x);
+
+}
+
+```
+
+Rezultat izvršavanja programa će biti:
+
+```
+Izvan funkcije x=5
+Unutar funkcije x=6
+Nakon poziva funkcije x=5
+
+```
+
 Za detaljnije pojašnjenje funkcija pročitati izvor ili pogledati zadatke!
 
 Izvor: [Programski jezik C, M. Jurak](https://web.math.pmf.unizg.hr/~singer/Prog_Add/c.pdf)
