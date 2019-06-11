@@ -24,3 +24,27 @@ Definiranje varijabli tipa `boolean`:
 enum boolean x,y;
 
 ```
+
+Općenito se enumeracija deklarira naredbom
+```C
+enum ime_enumeracije {
+    clan_1,
+    clan_2,
+    clan_n
+};
+
+```
+
+gdje je `ime_enumeracije` ime koje dajemo enumeraciji, a `clan_1`, `clan_2`, ...., `clan_n`
+predstavljaju identifikatore koji se mogu pridružiti varijabli tipa `enum` `ime_enumeracije`.
+
+Identifikatorima se automatski pridružuju cjelobrojne vrijednosti:
+
+```C
+
+clan_1=0
+clan_2=1
+clan_3=2
+clan_n=n-1
+
+```
