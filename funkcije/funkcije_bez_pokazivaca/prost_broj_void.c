@@ -31,4 +31,6 @@ void prostbroj(int x) {
 	else {
 		printf("Broj nije prost\n");
 	}
+
+	return;
 }

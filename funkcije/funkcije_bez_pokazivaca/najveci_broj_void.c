@@ -32,4 +32,5 @@ void maksimum(int x, int y, int z) { // Definicija funkcije
 
 	printf("Najveci upisani broj je %d\n", max); // Funkcija ne vraća rezultat već ga ispisuje
 
+	return;
 }

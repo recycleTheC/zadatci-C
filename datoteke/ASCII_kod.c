@@ -12,11 +12,11 @@
 int main() {
 
 	int i, broj[5];
-	FILE* fp;
+	FILE *fp; // Pokazivač tipa FILE
 
-	fp = fopen("brojevi.bin", "w+");
+	fp = fopen("brojevi.bin", "w+"); // Otvaranje datoteke za pisanje
 
-	if (fp == NULL) {
+	if (fp == NULL) { // Ako dođe do pogreške pri otvaranju datoteke, pokazivač je postavljen u NULL vrijednost
 		printf("Greska pri otvaranju datoteke!\n");
 		exit(1);
 	}
@@ -27,33 +27,33 @@ int main() {
 			scanf("%d", &broj[i]);
 		} while (!(broj[i] >= 0 && broj[i] <= 255));
 
-		fwrite(&broj[i], sizeof(broj[i]), 1, fp);
+		fwrite(&broj[i], sizeof(broj[i]), 1, fp); // Upisivanje broja u datoteku
 	}
 
-	fclose(fp);
+	fclose(fp); // Zatvaranje datoteke
 
-	fp = fopen("brojevi.bin", "r+");
+	fp = fopen("brojevi.bin", "r+"); // Otvaranje datoteke za čitanje
 
-	if (fp == NULL) {
+	if (fp == NULL) { // Ako dođe do pogreške pri otvaranju datoteke, pokazivač je postavljen u NULL vrijednost
 		printf("Greska pri otvaranju datoteke!\n");
 		exit(1);
 	}
 
 	for (i = 0; i < 5; i++) {
-		fseek(fp, -i * sizeof(broj[i]), SEEK_END);
-		fread(&broj[i], sizeof(broj[i]), 1, fp);
+		fseek(fp, -i * sizeof(broj[i]), SEEK_END); // Pozicioniranje na i-ti broj od zadnjeg broja
+		fread(&broj[i], sizeof(broj[i]), 1, fp); // Čitanje broja iz datoteke
 	}
 
 	printf("ASCII kod:\t");
 
 	for (i = 0; i < 5; i++) {
-		printf("%d\t", broj[i]);
+		printf("%d\t", broj[i]); // Ispis ASCII koda
 	}
 
 	printf("\nZnak:\t\t");
 
 	for (i = 0; i < 5; i++) {
-		printf("%c\t", broj[i]);
+		printf("%c\t", broj[i]); // Ispis znaka
 	}
 
 }

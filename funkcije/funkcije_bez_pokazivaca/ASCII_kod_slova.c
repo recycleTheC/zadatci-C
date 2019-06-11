@@ -28,4 +28,5 @@ void ascii(char s) {
 
 	printf("Slovo: %c, ASCII kod: %d\n", s, s);
 
+	return;
 }
