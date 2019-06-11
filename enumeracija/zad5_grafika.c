@@ -1,4 +1,4 @@
-// Solution (c) Mario Kopjar 2019.
+// Rješenje (c) recycleTheC - TSRB 2019.
 // BGI (c) University of Colorado 2004.
 
 // Enumerirati 3 boje iz spektra boja dostupnih za crtanje. Enumerirati nazive za tri
