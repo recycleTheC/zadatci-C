@@ -51,6 +51,12 @@ for(i=0;i<5;i++){
     scanf("%d", (pokBr+i)); // Funkcija scanf() pohranit će učitani broj na adresi prvog elementa polja uvećanoj za i
 }
 
+printf("Ispis brojeva:\n");
+
+for(i=0;i<5;i++){
+    printf("%d\n", *(pokBr+i)); // Funkcija printf() ispisat će učitani broj sa adrese prvog elementa polja uvećanoj za i
+}
+
 ```
 
 Izvor: [Programski jezik C, M. Jurak](https://web.math.pmf.unizg.hr/~singer/Prog_Add/c.pdf)
