@@ -11,6 +11,8 @@ ne može vratiti drugu funkciju ili polje.**
 
 ## Definicja funkcije
 
+Funkcije se definiraju **na početku programa**, prije definiranja funkcije main().
+
 Definicija funkcija ima oblik:
 
 ```C
@@ -23,7 +25,7 @@ gdje je tip podatka tip podatka koji će funkcija vratiti kao rezultat svog izvr
 Unutar zagrada nalazi se deklaracija formalnih argumenata funkcije.
 Prvi argument argument_1 je varijabla tipa tip_1 itd. Deklaracije pojedinih argumenata medusobno se odvajaju zarezom.
 
-Ako funkcija ne vraća ništa u program iz kojeg je pozvana, može se koristiti ```C void``` tip podataka.
+Ako funkcija ne vraća ništa u program iz kojeg je pozvana, može se koristiti `C void` tip podataka.
 
 ## Pozivanje funkcija
 
