@@ -62,7 +62,7 @@ int main() {
 	case Crvena: setfillstyle(SOLID_FILL, COLOR(255, 0, 0)); floodfill(250, 250, getcolor()); break;
 	case Zelena: setfillstyle(SOLID_FILL, GREEN); floodfill(250, 250, getcolor()); break;
 	case Plava: setfillstyle(SOLID_FILL, BLUE); floodfill(250, 250, getcolor()); break;
-	}
+	} // getcolor() - vraća vrijednost trenutno korištene boje linije
 
 	getch();
 	closegraph();

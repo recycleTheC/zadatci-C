@@ -1,5 +1,5 @@
 // (c) recycleTheC - TSRB 2019.
-//* Učitati 10 brojeva i nakon toga izračunati aritmaticku sredinu neparnih brojeva koristeči funkciju i pokazivaće*/
+// Učitati 10 brojeva i nakon toga izračunati aritmaticku sredinu neparnih brojeva koristeči funkciju i pokazivaće
 
 #include<stdio.h>
 
