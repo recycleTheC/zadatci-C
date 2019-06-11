@@ -2,4 +2,7 @@
 * text=auto
 
 # Sources
-*.c     text diff=c
+*.cc    text diff=cpp
+*.cxx   text diff=cpp
+*.cpp   text diff=cpp
+*.c++   text diff=cpp
