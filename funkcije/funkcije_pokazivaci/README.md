@@ -31,7 +31,7 @@ Primjer korištenja pokazivača u funkcijama:
 void zamjena(int *px, int *py) {
 
     int temp=*px;
-    *px=*py; // * označava vrijednost -> vrijednost varijable na adrese u pokazivaču py će biti pohranjena u varijablu na adresi u pokazivaču px
+    *px=*py; // * označava vrijednost -> vrijednost varijable na adresi u pokazivaču py će biti pohranjena u varijablu na adresi u pokazivaču px
     *py=temp;
 
 }
