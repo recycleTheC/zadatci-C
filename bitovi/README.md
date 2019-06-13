@@ -25,8 +25,6 @@ značajnom mjestu... Definicije operacija dane su u sljedećoj tabeli:
 | 1 | 1 |   1   |   0   |   1    |
 
 
-| LOGIČKA                       |
-|     |   |                     |
 |----:|---|---------------------|
 | a   | = | 0100 0111 0101 0111 |
 | b   | = | 1101 0100 1010 1001 |
