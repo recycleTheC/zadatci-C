@@ -18,7 +18,7 @@ najmanje značajnom mjestu u oba operanda, zatim na sljedećem najmanje
 značajnom mjestu... Definicije operacija dane su u sljedećoj tabeli:
 
 | a | b | a & b | a ^ b | a \| b |
-|--------------------------------|
+|---|---|-------|-------|--------|
 | 0 | 0 |   0   |   0   |   0    |
 | 0 | 1 |   0   |   1   |   1    |
 | 1 | 0 |   0   |   1   |   1    |
