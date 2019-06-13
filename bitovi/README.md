@@ -24,9 +24,6 @@ značajnom mjestu... Definicije operacija dane su u sljedećoj tabeli:
 | 1 | 0 |   0   |   1   |   1    |
 | 1 | 1 |   1   |   0   |   1    |
 
-+-----------------------------------+
-| |----:|---|---------------------| |
-| | a   | = | 0100 0111 0101 0111 | |
-| | b   | = | 1101 0100 1010 1001 | |
-| | a&b | = | 0100 0100 0000 0001 | |
-+-----------------------------------+
+Za detaljnije pojašnjenje rada s bitovima pročitati izvor ili pogledati zadatke!
+
+Izvor: [Programski jezik C, M. Jurak](https://web.math.pmf.unizg.hr/~singer/Prog_Add/c.pdf)
