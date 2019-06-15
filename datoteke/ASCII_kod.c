@@ -56,4 +56,8 @@ int main() {
 		printf("%c\t", broj[i]); // Ispis znaka
 	}
 
+	fclose(fp); // Zatvaranje datoteke
+
+	return 0;
+
 }
