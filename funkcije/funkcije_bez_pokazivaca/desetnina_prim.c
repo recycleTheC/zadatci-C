@@ -37,6 +37,10 @@ int prim(float x) {
 
 	d = (int)(x * 10) % 10; // Desetnina učitanog broja
 
+	if (d == 1) { // Ako je upisana desetnina 1 (npr. 1.1)
+		return 1;
+	}
+
 	dj = d - 1; // Prvi sijedeći djelitelj manji o učitanog broja
 
 	while (d % dj != 0) { // Dok nije moguće cjelobrojno podijeliti učitani broj s djeliteljem, djelitelj se smanjuje za 1
