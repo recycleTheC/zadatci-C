@@ -27,6 +27,8 @@ int main() {
 		printf("prim\n");
 	}
 
+	return 0;
+
 }
 
 int prim(float x) {
