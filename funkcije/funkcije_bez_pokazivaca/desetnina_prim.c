@@ -41,7 +41,7 @@ int prim(float x) {
 		return 1;
 	}
 
-	dj = d - 1; // Prvi sijedeći djelitelj manji o učitanog broja
+	dj = d - 1; // Prvi slijedeći djelitelj manji o učitanog broja
 
 	while (d % dj != 0) { // Dok nije moguće cjelobrojno podijeliti učitani broj s djeliteljem, djelitelj se smanjuje za 1
 		dj--;
