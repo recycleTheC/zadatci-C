@@ -1,7 +1,7 @@
 // (c) recycleTheC - TSRB 2019.
-// Treba napisati funkciju koja uzima niz znakova i u njemu nalazi prvi samoglasnik.
+// Napisati funkciju koja uzima niz znakova i u njemu nalazi prvi samoglasnik.
 // Funkcija treba vratiti nađeni samoglasnik i mjesto u nizu na kojem je nađen.
-// Ukoliko u danom nizu nema samoglasnika, umjesto mjesta u nizu vra´ca se -1.
+// Ukoliko u danom nizu nema samoglasnika, umjesto mjesta u nizu vraća se -1.
 // U ovom primjeru funkcija mora vratiti dvije vrijednosti. Kroz return
 // naredbu može se vratiti samo jedna vrijednost, tako da se druga mora vratiti kroz argument funkcije.
 // (Funkcija ne može vratiti polje.)
