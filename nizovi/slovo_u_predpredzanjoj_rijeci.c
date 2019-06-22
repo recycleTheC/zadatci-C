@@ -1,6 +1,6 @@
 // (c) recycleTheC - TSRB 2019.
 // Učitati rečenicu i jedno slovo.
-// Ispitati pojavljuje li se upisano slovo u pred predzadnjoj rijeci recenice.
+// Ispitati pojavljuje li se upisano slovo u pred predzadnjoj rijeci rečenice.
 
 #include<stdio.h>
 
