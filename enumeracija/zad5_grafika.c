@@ -46,6 +46,7 @@ int main() {
 	initwindow(500, 500);
 
 	switch (iscrtavanje) {
+	default: printf("Nije upisana ispravna boja!\n"); break;
 	case Crvena: setcolor(COLOR(255, 0, 0)); break;
 	case Zelena: setcolor(GREEN); break;
 	case Plava: setcolor(BLUE); break;
@@ -59,6 +60,7 @@ int main() {
 	}
 
 	switch (ispuna) {
+	default: printf("Nije upisana ispravna ispuna!\n"); break;
 	case Crvena: setfillstyle(SOLID_FILL, COLOR(255, 0, 0)); floodfill(250, 250, getcolor()); break;
 	case Zelena: setfillstyle(SOLID_FILL, GREEN); floodfill(250, 250, getcolor()); break;
 	case Plava: setfillstyle(SOLID_FILL, BLUE); floodfill(250, 250, getcolor()); break;
