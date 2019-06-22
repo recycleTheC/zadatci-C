@@ -1,3 +1,4 @@
+// (c) recycleTheC - TSRB 2019.
 // Treba napisati funkciju koja uzima niz znakova i u njemu nalazi prvi samoglasnik.
 // Funkcija treba vratiti nađeni samoglasnik i mjesto u nizu na kojem je nađen.
 // Ukoliko u danom nizu nema samoglasnika, umjesto mjesta u nizu vra´ca se -1.
