@@ -9,7 +9,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int trazi(char linija[], int n, char *psamoglasnik);
+int trazi(char linija[], char *psamoglasnik);
 
 int main(){
 
@@ -20,7 +20,7 @@ int main(){
     printf("Upisi recenicu: ");
     gets(r);
     
-    no=trazi(r,strlen(r),&znak);
+    no=trazi(r,&znak);
 
     if(no != -1){
     printf("Prvi samoglasnik = %c\n",znak);
@@ -31,17 +31,18 @@ int main(){
     return 0;
 }
 
-// Funkcija trazi uzima niz znakova linija, cijeli broj n koji daje broj znakova u nizu linija
-// i pokazivač na varijablu tipa char, koji smo nazvali psamoglasnik (pointer na samoglasnik).
-// Nađeni samoglasnik će biti vraćen kroz argument psamoglasnik, a mjesto na koje je naden vraća se kroz return naredbu.
+// Funkcija trazi uzima niz znakova linija, i pokazivač na varijablu tipa char, koji smo nazvali psamoglasnik (pointer na samoglasnik).
+// Nađeni samoglasnik će biti vraćen kroz argument psamoglasnik, a mjesto na koje je nađen vraća se kroz return naredbu.
 
-int trazi(char linija[], int n, char *psamoglasnik){
+int trazi(char linija[], char *psamoglasnik){
 
-    int i;
+    int i, n;
     char c;
 
+    n=strlen(linija);
+
     for(i=0; i<n; i++){ // prolaz kroz sve znakove u polju
-        c=linija[i]; // znak na položaju i iz polja se kopira u varijablu
+        c=linija[i]; // znak na položaju [i] iz polja se kopira u varijablu
         if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){ // je li znak samoglasnik?
             *psamoglasnik=c; // ako je znak samoglasnik, on se kopira u varijablu na koju pokazuje pokazivač psamoglasnik
             return i; // funkcija vraća položaj znaka koji je dan varijablom i
