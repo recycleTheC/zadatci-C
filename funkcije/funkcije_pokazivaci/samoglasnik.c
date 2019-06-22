@@ -1,0 +1,51 @@
+// Treba napisati funkciju koja uzima niz znakova i u njemu nalazi prvi samoglasnik.
+// Funkcija treba vratiti nađeni samoglasnik i mjesto u nizu na kojem je nađen.
+// Ukoliko u danom nizu nema samoglasnika, umjesto mjesta u nizu vra´ca se -1.
+// U ovom primjeru funkcija mora vratiti dvije vrijednosti. Kroz return
+// naredbu može se vratiti samo jedna vrijednost, tako da se druga mora vratiti kroz argument funkcije.
+// (Funkcija ne može vratiti polje.)
+
+#include<stdio.h>
+#include<string.h>
+
+int trazi(char linija[], int n, char *psamoglasnik);
+
+int main(){
+
+    char r[255];
+    char znak;
+    int no;
+
+    printf("Upisi recenicu: ");
+    gets(r);
+    
+    no=trazi(r,strlen(r),&znak);
+
+    if(no != -1){
+    printf("Prvi samoglasnik = %c\n",znak);
+    printf("Nalazi se na mjestu %d\n",no);
+    }
+    else printf("Nema samoglasnika.\n");
+
+    return 0;
+}
+
+// Funkcija trazi uzima niz znakova linija, cijeli broj n koji daje broj znakova u nizu linija
+// i pokazivač na varijablu tipa char, koji smo nazvali psamoglasnik (pointer na samoglasnik).
+// Nađeni samoglasnik će biti vraćen kroz argument psamoglasnik, a mjesto na koje je naden vraća se kroz return naredbu.
+
+int trazi(char linija[], int n, char *psamoglasnik){
+
+    int i;
+    char c;
+
+    for(i=0; i<n; i++){ // prolaz kroz sve znakove u polju
+        c=linija[i]; // znak na položaju i iz polja se kopira u varijablu
+        if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){ // je li znak samoglasnik?
+            *psamoglasnik=c; // ako je znak samoglasnik, on se kopira u varijablu na koju pokazuje pokazivač psamoglasnik
+            return i; // funkcija vraća položaj znaka koji je dan varijablom i
+        }
+    }
+    
+    return -1; // ukoliko je for petlja izvršena i nije ponađen samoglasnik, vraća se -1, a lokacija na koju pokazuje pokazivač psamoglasnik se ne mijenja
+}
