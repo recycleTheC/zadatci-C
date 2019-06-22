@@ -43,7 +43,7 @@ int prim(char x) {
 
 	while ((x - '0') % d != 0){
         d--;
-    }
+	}
 
 	if (d == 1) {
 		return 1;
