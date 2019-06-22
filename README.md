@@ -8,6 +8,8 @@ Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!
 ### [Nizovi znakova/brojeva](nizovi/)
 ### [Funkcije](funkcije/)
 ### [Pokazivači](funkcije/funkcije_pokazivaci)
+### [Datoteke](datoteke/)
+### [Grafika](grafika/)
 ### [Enumeracije](enumeracija/)
 ### [Rad s bitovima](bitovi/)
 
