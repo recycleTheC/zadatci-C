@@ -6,6 +6,7 @@ je moguće dohvatiti pomoću **adresnog operatora &**.
 ``` C
 
 #include <stdio.h>
+
 int main() {
 
     float x = 5;
@@ -58,6 +59,7 @@ Vrijednost na koju pokazivač pokazuje možemo dohvatiti putem **operatora deref
 ``` C
 
 #include <stdio.h>
+
 int main() {
 
     float x=5;
@@ -74,7 +76,7 @@ int main() {
 `*` ima različito značenje u deklaraciji i u izvršnoj naredbi. U deklaraciji varijable ukazuje da je varijabla tipa pokazivač na dani tip.
 U izvršnoj naredbi ona predstavlja operator diferenciranja.
 
-Detaljno opisani primjer korištenja pokazivača: (samoglasnik.c)[samoglasnik.c]
+Detaljno opisani primjer korištenja pokazivača: [samoglasnik.c](samoglasnik.c)
 
 ## Deklaracija pokazivača
 
