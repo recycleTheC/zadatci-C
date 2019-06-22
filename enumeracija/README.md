@@ -54,7 +54,7 @@ Identifikatorima je moguće dodijeliti i drugačije cjelobrojne vrijednosti:
 ```C
 enum ime_enumeracije {
     clan_1=1,
-    clan_2, //sljedeći identifikator ima cjelobrojnu vrijednost 1
+    clan_2, //sljedeći identifikator ima cjelobrojnu vrijednost veću za 1 (2)
     clan_n
 };
 
