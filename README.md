@@ -5,7 +5,7 @@ Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!
 
 ## Gradivo
 
-### [Nizovi znakova/brojeva](nizovi/)
+### [Nizovi znakova/brojeva (pretraživanje/sortiranje)](nizovi/)
 ### [Funkcije](funkcije/)
 ### [Pokazivači](funkcije/funkcije_pokazivaci)
 ### [Datoteke](datoteke/)
