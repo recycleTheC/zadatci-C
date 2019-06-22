@@ -1,5 +1,5 @@
 // (c) recycleTheC - TSRB 2019.
-//* Učitati rečenicu i izbrojati koliko je upisano velikih slova pomoću funkcije i pokazivača
+// Učitati rečenicu i izbrojati koliko je upisano velikih slova pomoću funkcije i pokazivača
 
 #include<stdio.h>
 #include<string.h>
