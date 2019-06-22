@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-void parni(int* pokBr);
+void parni(int *pokBr);
 
 int main() {
 
@@ -19,7 +19,7 @@ int main() {
 	return 0;
 }
 
-void parni(int* pokBr) {
+void parni(int *pokBr) {
 
 	int zbr = 0, n = 0, i;
 	float arsr;
