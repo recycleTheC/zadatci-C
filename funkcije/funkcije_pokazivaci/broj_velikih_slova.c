@@ -28,14 +28,14 @@ int velika(char *pokS) {
 
 	int n = 0, i, d;
 
-	d = strlen(pokS);
+	d = strlen(pokS); // Duljina rečenice
 
 	for (i = 0; i < d; i++) {
 		if (*(pokS + i) >= 'A' && *(pokS + i) <= 'Z') {
-			n++;
+			n++; // Brojanje velikih slova
 		}
 	}
 
-	return n;
+	return n; // Funkcija vraća broj velikih slova upisanih u rečenici
 
 }

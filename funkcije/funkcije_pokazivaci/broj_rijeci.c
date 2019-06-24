@@ -25,13 +25,13 @@ int brojRijeci(char *pokR){
 
     int d, n=0, i;
 
-    d=strlen(pokR);
+    d=strlen(pokR); // Duljina rečenice
 
-    for(i=0;i<=d;i++){
-        if(*(pokR+i)==' ' || *(pokR+i)=='\0'){
-            n++;
+	for (i = 0; i <= d; i++) {
+		if (*(pokR + i) == ' ' || *(pokR + i) == '\0') { // '\0' označava kraj rečenice
+            n++; // Brojanje razmaka
         }
     }
 
-    return n;
+    return n; // Funkcija vraća broj riječi u rečenici
 }

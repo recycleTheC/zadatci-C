@@ -14,14 +14,13 @@ int main() {
 
 	for (i = 0; i < 10; i++) {
 		printf("Upisi %d. broj: ", i + 1);
-		scanf("%d", pokBr + i);
+		scanf("%d", (pokBr + i));
 	}
 
 	sredina = arsr(pokBr);
 
 	if (sredina == -1) {
 		printf("Nisu upisani neparni brojevi\n");
-		printf("Aritmeticka sredina neparnih brojeva: %f\n", sredina);
 	}
 	else {
 		printf("Aritmeticka sredina neparnih brojeva: %f\n", sredina);
@@ -31,20 +30,21 @@ int main() {
 
 float arsr(int *pokBr) {
 
-	int zbr = 0, i, n=0; float sredina;
+	int zbr = 0, i, n=0;
+	float sredina;
 
 	for (i = 0; i < 10; i++) {
 		if ((*pokBr + i) % 2 != 0) {
-			zbr = zbr + (*pokBr + i);
+			zbr = zbr + *(pokBr + i);
 			n++;
 		}
 	}
 
 	if (n != 0) {
 		sredina = (float)zbr / n;
-		return sredina;
+		return sredina; // Funkcija vraća vrijednost aritmetičke sredine neparnih brojeva
 	}
 	else {
-		return -1;
+		return -1; // Funckija vraća vrijednost -1 ako nisu upisani neparni brojevi
 	}
 }
