@@ -26,7 +26,7 @@ x = 5.000000, adresa od x= 0x7ffce33f4c5c
 
 Adresa varijable `x` ispisana je heksadecimalno; znak konverzije `%p` služi za ispis adresa.
 
-Adresu varijable nekog tipa možemo zapamtit u varijabli koja je tipa pokazivač na dani `tip`.
+Adresu varijable nekog tipa možemo zapamtiti u varijabli koja je tipa pokazivač na dani `tip`.
 
 ``` C
 
