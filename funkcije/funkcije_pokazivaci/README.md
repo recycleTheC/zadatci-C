@@ -1,6 +1,6 @@
 # Pokazivači
 
-Svaka varijabla deklarirana u C prgramu ima svoju adresu koju
+Svaka varijabla deklarirana u C programu ima svoju adresu koju
 je moguće dohvatiti pomoću **adresnog operatora &**.
 
 ``` C
