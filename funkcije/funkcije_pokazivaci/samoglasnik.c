@@ -45,7 +45,7 @@ int trazi(char linija[], char *psamoglasnik){
         c=linija[i]; // znak na položaju [i] iz polja se kopira u varijablu
         if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){ // je li znak samoglasnik?
             *psamoglasnik=c; // ako je znak samoglasnik, on se kopira u varijablu na koju pokazuje pokazivač psamoglasnik
-            return i; // funkcija vraća položaj znaka koji je dan varijablom i
+            return i + 1; // funkcija vraća položaj znaka koji je dan varijablom i
         }
     }
     
