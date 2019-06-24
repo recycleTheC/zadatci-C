@@ -132,7 +132,7 @@ for(i=0;i<5;i++){
 printf("Ispis brojeva:\n");
 
 for(i=0;i<5;i++){
-    printf("%d\n", *(pokBr+i)); // Funkcija printf() ispisat će učitani broj sa adrese prvog elementa polja uvećanoj za i
+    printf("%d\n", *(pokBr+i)); // Funkcija printf() ispisat će učitani broj sa adrese prvog elementa polja (uvećane za i - i-ti element polja)
 }
 
 ```
