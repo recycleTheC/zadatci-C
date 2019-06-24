@@ -24,14 +24,15 @@ int main() {
 
 void mjestoSlova(char* x, char s) {
 
-	int n = -1, i, d;
+	int n = -1; // Početna vrijednost brojača je -1
+	int i, d;
 
 	d = strlen(x);
 
 	for (i = 0; i < d; i++) {
 		if (*(x + i) == s) {
-			n = 0;
-			break;
+			n = 1; // Ako u rečenici postoji traženo slovo, brojač se postavlja u 1
+			break; // Prekida se for petlja
 		}
 	}
 
@@ -42,9 +43,9 @@ void mjestoSlova(char* x, char s) {
 	}
 	else {
 
-		printf("pojavljuje na mjestima: ");
+		printf("pojavljuje na poziciji: ");
 
-		for (i = 0; i < d; i++) {
+		for (i; i < d; i++) { // početna vrijednost varijable i ostaje ista -> pokazivač je na poziciji učitanog slova u nizu
 			if (*(x + i) == s) {
 				printf("%d ", i+1);
 			}

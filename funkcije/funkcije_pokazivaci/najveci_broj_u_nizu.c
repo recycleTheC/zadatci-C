@@ -29,10 +29,10 @@ int najveciBroj(int *pokX, int n){
 
     int max, i;
 
-    max=*pokX;
+    max=*pokX; // Prvi broj iz niza postavlja se kao najveći
 
-    for(i=1;i<n;i++){
-        if(*(pokX+i)>max){
+	for (i = 1; i < n; i++) {
+		if (*(pokX + i) > max) { // Usporedba sljedećih brojeva iz niza
             max=*(pokX+i);
         }
     }
