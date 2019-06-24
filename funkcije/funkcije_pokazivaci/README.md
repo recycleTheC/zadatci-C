@@ -54,7 +54,7 @@ ZAPAMTITI: **Pokazivač na određeni tip može sadržavati adrese varijabli tog 
 
 U naredbi `px=&x` u varijablu `px` smješta se adresa varijable `x`.
 
-Vrijednost na koju pokazivač pokazuje možemo dohvatiti putem **operatora dereferenciranja *.
+Vrijednost na koju pokazivač pokazuje možemo dohvatiti putem **operatora dereferenciranja `*`**.
 
 ``` C
 
