@@ -15,7 +15,7 @@ int main(){
     pokR=&rijec[0];
 
     printf("Upisi rijec: ");
-    gets(pokR);
+    scanf("%s", pokR);
 
     printf("Upisi slovo za pretrazivanje: ");
     scanf(" %c", &s);
@@ -30,10 +30,10 @@ void pretraga(char *r, char s){
 
     int d, stanje=0, i;
 
-    d=strlen(r);
+	d = strlen(r);
 
     for(i=0;i<d;i++){
-        if(*(r+i)==s){
+		if (*(r + i) == s) {
             stanje++;
             break;
         }

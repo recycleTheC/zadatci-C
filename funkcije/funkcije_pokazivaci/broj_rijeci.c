@@ -29,7 +29,7 @@ int brojRijeci(char *pokR){
 
 	for (i = 0; i <= d; i++) {
 		if (*(pokR + i) == ' ' || *(pokR + i) == '\0') { // '\0' označava kraj rečenice
-            n++; // Brojanje razmaka
+			n++; // Brojanje razmaka
         }
     }
 

@@ -13,7 +13,7 @@ int main() {
 	pokR = &r[0];
 
 	printf("Upisi rijec: ");
-	gets(pokR);
+	scanf("%s", pokR);
 
 	ascii(pokR);
 

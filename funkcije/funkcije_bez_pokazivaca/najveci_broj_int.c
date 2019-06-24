@@ -15,8 +15,12 @@ int main() {
 
 	m=maksimum(a, b, c); // Pozivanje funckije i spremanje rezultata
 
-    printf("Najveci upisani broj je %d\n", m);
-
+	if (m != 0) {
+		printf("Najveci upisani broj je %d\n", m);
+	}
+	else {
+		printf("Upisani su jednaki brojevi!\n");
+	}
 	return 0;
 }
 
@@ -26,13 +30,18 @@ int maksimum(int x, int y, int z) { // Definicija funkcije
 
 	max = x; // postavlja se da je prvi učitani broj najveći
 
-	if (y > max) { // ispistuje se je li drugi učitani broj veći od max
-		max = y;
-	}
-	if (z > max) { // ispistuje se je li treči učitani broj veći od max
-		max = z;
-	}
+	if (x != y && x != z && y != z) {
 
-	return max; // funkcija vraća vrijednost najvećeg učitanog broja
+		if (y > max) { // ispistuje se je li drugi učitani broj veći od max
+			max = y;
+		}
+		if (z > max) { // ispistuje se je li treči učitani broj veći od max
+			max = z;
+		}
 
+		return max; // funkcija vraća vrijednost najvećeg učitanog broja
+	}
+	else {
+		return 0; // funkcija vraća 0 ako su učitani brojevi jednaki
+	}
 }
