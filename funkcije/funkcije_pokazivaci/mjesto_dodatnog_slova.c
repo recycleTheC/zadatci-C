@@ -22,7 +22,7 @@ int main() {
 	return 0;
 }
 
-void mjestoSlova(char* x, char s) {
+void mjestoSlova(char *x, char s) {
 
 	int n = -1; // Početna vrijednost brojača je -1
 	int i, d;

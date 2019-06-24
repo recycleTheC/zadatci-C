@@ -17,8 +17,8 @@ int main(){
     char znak;
     int no;
 
-    printf("Upisi recenicu: ");
-    gets(r);
+    printf("Upisi rijec: ");
+    scanf("%s", r);
     
     no=trazi(r,&znak);
 
@@ -31,8 +31,8 @@ int main(){
     return 0;
 }
 
-// Funkcija trazi uzima niz znakova linija, i pokazivač na varijablu tipa char, koji smo nazvali psamoglasnik (pointer na samoglasnik).
-// Nađeni samoglasnik će biti vraćen kroz argument psamoglasnik, a mjesto na koje je nađen vraća se kroz return naredbu.
+// Funkcija trazi() uzima niz znakova linija, i pokazivač na varijablu tipa char, koji smo nazvali psamoglasnik (pointer na samoglasnik).
+// Nađeni samoglasnik će biti vraćen kroz argument psamoglasnik, a mjesto na koje je nađen vraća se kroz naredbu return.
 
 int trazi(char linija[], char *psamoglasnik){
 
