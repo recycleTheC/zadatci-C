@@ -25,12 +25,12 @@ int main() {
 
 int znamenke(int x) {
 
-	int n = 0;
+	int n = 0; // broj znamenki broja
 
 	do {
-		n++;
-		x = x / 10;
-	} while (x != 0);
+		n++; // broj znamenki se povećava za 1
+		x = x / 10; // broj se dijeli sa 10
+	} while (x != 0); // naredbe se izvršavanju dok broj nije 0
 
-	return n;
+	return n; // funkcija vraća broj znamenki
 }

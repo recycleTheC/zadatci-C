@@ -16,7 +16,7 @@ int main() {
     printf("Unesite potenciju broja: ");
 	scanf("%d", &b);
 
-	pot = potenciranje(a, b);
+	pot = potenciranje(a, b); // Poziv funkcije i spremanje rezultata
 
 	printf("Rezultat %d^%d: %d\n", a, b, pot);
 
@@ -27,15 +27,15 @@ int potenciranje(int x, int y){
 
 	int i, rez;
 
-	rez=x;
+	rez = x;
 
 	if(y==0){
 		rez=0;
     }
 
 	for(i=1; i<y; i++){
-		rez=rez*x;
+		rez=rez*x; // Potenciranje broja
     }
     
-	return rez;
+	return rez; // Funkcija vraća rezultat potenciranja broja
 }

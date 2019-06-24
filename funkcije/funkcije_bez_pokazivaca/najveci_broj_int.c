@@ -13,24 +13,26 @@ int main() {
 	printf("Upisi tri broja: ");
 	scanf("%d %d %d", &a, &b, &c);
 
-	m=maksimum(a, b, c);
+	m=maksimum(a, b, c); // Pozivanje funckije i spremanje rezultata
 
     printf("Najveci upisani broj je %d\n", m);
 
 	return 0;
 }
 
-int maksimum(int x, int y, int z) {
+int maksimum(int x, int y, int z) { // Definicija funkcije
 
 	int max;
-	max = x;
 
-	if (y > max)
+	max = x; // postavlja se da je prvi učitani broj najveći
+
+	if (y > max) { // ispistuje se je li drugi učitani broj veći od max
 		max = y;
-
-	if (z > max)
+	}
+	if (z > max) { // ispistuje se je li treči učitani broj veći od max
 		max = z;
+	}
 
-	return max;
+	return max; // funkcija vraća vrijednost najvećeg učitanog broja
 
 }

@@ -39,5 +39,5 @@ float funkcija(int x){
 	}
     else f = 0;
 
-    return f;
+    return f; // funkcija vraća vrijednost izraza koji su izračunati prema zadanim uvjetima
 }

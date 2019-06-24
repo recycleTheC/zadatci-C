@@ -22,7 +22,10 @@ void prethodnikSljedbenik(int x){
 
     if(x<0){
         printf("Sljedbenik broja %d je %d\n", x, x+1);
-    }else{
+    }
+	else{
         printf("Prethodnik broja %d je %d\n", x, x-1);
     }
+
+	return;
 }

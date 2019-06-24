@@ -26,11 +26,11 @@ int djelitelj(int x, int y){
 
     int dj=0, i;
 
-    for(i=1; i <= x && i <= y; i++){
-        if(x%i==0 && y%i==0){
-            dj = i;
+    for(i=1; i <= x && i <= y; i++){ // vrijednost i se povećava dok je manja od učitanih brojeva (zajednički djelitelj ne može biti veći od njih)
+        if(x%i==0 && y%i==0){ // ako su učitani brojevi djeljivi sa i
+            dj = i; // djelitelj dobiva vrijednost i
         }
     }
 
-    return dj;
+    return dj; // funckija vraća vrijednost najvećeg zajedničkog djelitelja
 }

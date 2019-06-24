@@ -37,7 +37,7 @@ int prim(float x) {
 
 	d = (int)(x * 10) % 10; // Desetnina učitanog broja
 
-	if (d == 1) { // Ako je upisana desetnina 1 (npr. 1.1)
+	if (d == 1) { // Ako je upisana desetnina 1 (npr. broj 1.1)
 		return 1;
 	}
 
