@@ -24,7 +24,7 @@ Program će ovisno o računalu na kojem se izvodi ispisati nešto kao:
 x = 5.000000, adresa od x= 0x7ffce33f4c5c
 ```
 
-Adresa varijable `x` ispisana je heksabecimalno; znak konverzije `%p` služi za ispis adresa.
+Adresa varijable `x` ispisana je heksadecimalno; znak konverzije `%p` služi za ispis adresa.
 
 Adresu varijable nekog tipa možemo zapamtit u varijabli koja je tipa pokazivač na dani `tip`.
 
