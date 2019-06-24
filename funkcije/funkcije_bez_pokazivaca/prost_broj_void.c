@@ -19,9 +19,9 @@ int main() {
 
 void prostbroj(int x) {
 
-	int i = x - 1;
+	int i = x - 1; // Broj za 1 manji od učitanog broja koji će se u funckiji koristiti kao djelitelj
 
-	while (x % i != 0) {
+	while (x % i != 0) { // Dok se učitani broj ne može cjelobrojno podijeliti sa i, djelitelj (i) se smanjuje
 		i--;
 	}
 

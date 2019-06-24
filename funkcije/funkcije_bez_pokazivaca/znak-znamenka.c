@@ -35,10 +35,10 @@ int prim(char x) {
 
 	int d;
 
-	d = x - '0' - 1;
+	d = x - '0' - 1; // Broj za 1 manji od učitanog broja koji će se u funckiji koristiti kao djelitelj
 
 	if (d == 0) {
-		return 1;
+		return 1; // učitani broj je prim ('1')
 	}
 
 	while ((x - '0') % d != 0){

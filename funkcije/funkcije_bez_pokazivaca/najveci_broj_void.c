@@ -21,14 +21,15 @@ int main() {
 void maksimum(int x, int y, int z) { // Definicija funkcije
 
 	int max;
-    
-	max=x;
 
-	if(y > max)
-		max=y;
+	max = x; // postavlja se da je prvi učitani broj najveći
 
-	if(z > max)
-		max=z;
+	if (y > max) { // ispistuje se je li drugi učitani broj veći od max
+		max = y;
+	}
+	if (z > max) { // ispistuje se je li treči učitani broj veći od max
+		max = z;
+	}
 
 	printf("Najveci upisani broj je %d\n", max); // Funkcija ne vraća rezultat već ga ispisuje
 

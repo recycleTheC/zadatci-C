@@ -36,11 +36,11 @@ int main(){
 int zamjena(char s){
 
     if(s>='A' && s<='Z'){
-        return 1;
+        return 1; // upisano je veliko slovo
     }
 
     if(s>='a' && s<='z'){
-        return -1;
+        return -1; // upisano je malo slovo
     }
 
 }

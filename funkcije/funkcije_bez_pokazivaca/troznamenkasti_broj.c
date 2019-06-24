@@ -14,10 +14,12 @@ int main(){
     for(i=0;i<4;i++){
         printf("Upisi %d. troznamenkasti broj: ", i+1);
         scanf("%d", &broj);
-        while(!(broj>99 && broj<1000)){
+
+        while(!(broj>99 && broj<1000)){ // ako korisnik ne upiše troznamenkasti broj, zatražiti ponovni upis
             printf("Ponovno upisi %d. troznamenkasti broj: ", i+1);
             scanf("%d", &broj);
         }
+
         djeljivost(broj);
     }
 
@@ -34,7 +36,7 @@ void djeljivost(int x){
 
     printf("Broj %d ", x);
 
-    if((s+d+j)%3==0){
+    if((s + d + j) % 3 == 0){
         printf("je ");
     }
     else{
