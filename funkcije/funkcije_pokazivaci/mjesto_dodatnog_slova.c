@@ -39,7 +39,7 @@ void mjestoSlova(char *x, char s) {
 	printf("Slovo %c se ", s);
 
 	if (n == -1) {
-		printf("ne pojavljuje u recenici!\n", s);
+		printf("ne pojavljuje u recenici!\n");
 	}
 	else {
 
