@@ -24,24 +24,26 @@ int main() {
 
 void rijeciNaSlovo(char *pokR, char slovo) {
 
-	int i, d, n = 0, m = 0;
+	int i, d;
+	int n = 0; // brojač riječi
+	int m = 0; // brojač slova
 
 	d = strlen(pokR);
 
 	for (i = 0; i < d; i++) {
 		if (*(pokR + i) == slovo && (*(pokR + i - 1) == ' ' || i == 0)) {
-			n++;
+			n++; // povećanje vrijednosti brojača riječi za 1; riječ počinje na učitano slovo
 			printf("%d. rijec: ", n);
 			for (i; i < d && *(pokR + i) != ' '; i++) {
-				printf("%c", *(pokR + i));
-				m++;
+				printf("%c", *(pokR + i)); // ispis riječi slovo po slovo
+				m++; // povećanje vrijednosti brojača slova u riječi za 1
 			}
 			printf(", duljina: %d znakova\n", m);
 		}
-		m = 0;
+		m = 0; // brojač slova se ponovno postavlja u 0 nakon što je ispisana riječ
 	}
 
-	if (n == 0) {
+	if (n == 0) { // ako je n == 0, u rečenici ne postoji riječ koja počinje učitanim slovom
 		printf("U recenici se ne pojavljuju rijeci koje zapocinju slovom '%c'\n", slovo);
 	}
 
