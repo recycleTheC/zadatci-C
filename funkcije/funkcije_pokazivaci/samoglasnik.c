@@ -17,10 +17,14 @@ int main(){
     char znak;
     int no;
 
+	// char *pokZnak=&znak; // prošireno rješenje
+
     printf("Upisi rijec: ");
     scanf("%s", r);
     
-    no=trazi(r,&znak);
+    no=trazi(r,&znak); // u pozivu funkcije dajemo argumente: polje koje će se pretraživati, "pokazivač" (adresu) na varijablu u koju će se spremiti znak
+
+	// no=trazi(r, pokZnak); // prošireno rješenje
 
     if(no != -1){
     printf("Prvi samoglasnik = %c\n",znak);
