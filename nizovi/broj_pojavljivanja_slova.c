@@ -3,6 +3,7 @@
 // Ispitati pojavljuje li se upisano slovo u prvoj riječi koja počinje na 'a' i koliko puta.
 
 #include<stdio.h>
+#include<string.h>
 
 int main() {
 

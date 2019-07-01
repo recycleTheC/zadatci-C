@@ -3,6 +3,7 @@
 // Ispitati sve riječi koje započinju ovim slovom.
 
 #include<stdio.h>
+#include<string.h>
 
 int main() {
 

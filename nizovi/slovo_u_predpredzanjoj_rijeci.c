@@ -3,6 +3,7 @@
 // Ispitati pojavljuje li se upisano slovo u pred predzadnjoj rijeci rečenice.
 
 #include<stdio.h>
+#include<string.h>
 
 int main() {
 
