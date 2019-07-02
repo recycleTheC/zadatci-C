@@ -3,7 +3,6 @@
 // datoteke i svako malo slovo zamijeniti velikim i obratno.
 
 #include<stdio.h>
-#include<string.h>
 #include<stdlib.h>
 
 int main() {
