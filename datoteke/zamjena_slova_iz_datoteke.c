@@ -37,7 +37,7 @@ int main() {
 	printf("Slova nakon zamjene: \n");
 
 	for (i = 0; i < 5; i++) {
-		fscanf(fp, "%c\n", &slovo[i]);
+		fscanf(fp, "%c\n", &slovo[i]); // Čitanje slova iz datoteke
 
 		if (slovo[i] >= 'A' && slovo[i] <= 'Z') {
 			slovo[i] = slovo[i] + 32;
@@ -58,7 +58,7 @@ int main() {
 	}
 
 	for (i = 0; i < 5; i++) {
-		fprintf(fp, "%c\n", slovo[i]); // upisivanje zamijenjenih slova u datoteku
+		fprintf(fp, "%c\n", slovo[i]); // Upisivanje zamijenjenih slova u datoteku
 	}
 
 	fclose(fp); // Zatvaranje datoteke
