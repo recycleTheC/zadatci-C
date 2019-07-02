@@ -5,7 +5,6 @@
 #include<stdio.h>
 
 struct razredi {
-
 	char oznaka[4];
 	int izostanci;
 };
