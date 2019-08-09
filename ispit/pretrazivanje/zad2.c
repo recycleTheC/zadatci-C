@@ -19,7 +19,7 @@ int main() {
 	d = strlen(r);
 
 	for (i = 0; i < d; i++) {
-		if (r[i] == sel && r[i + 1] == ' ' || r[i+1] == '\0') {
+		if (r[i] == sel && (r[i + 1] == ' ' || r[i+1] == '\0')) {
 			n++;
 			break;
 		}
