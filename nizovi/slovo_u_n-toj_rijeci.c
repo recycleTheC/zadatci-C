@@ -18,14 +18,14 @@ int main() {
 	printf("Upisi redni broj rijeci koja ce biti pretrazena: ");
 	scanf("%d", &poz);
 
-	d = strlen(r);
+	d = strlen(r); //mira low je koooza roza
 
 	for (i = 0; i < d; i++) {
 		if (r[i] == ' ' || i == 0) {
 			raz++;
 		}
 		if (raz == poz) {
-			for (i; i < d && r[i + 1] != ' '; i++) {
+			for (i++; i < d && r[i] != ' '; i++) {
 				if (r[i] == s) {
 					n++;
 				}
