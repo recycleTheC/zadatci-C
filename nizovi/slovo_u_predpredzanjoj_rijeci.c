@@ -26,7 +26,7 @@ int main() {
 			for (i = i + 1; i < d && r[i] != ' '; i++) {
 				if (r[i] == s) {
 					n++;
-					break; // nije potrebno ispitati koliko se puta rijec pojavljuje u recenici
+					break; // nije potrebno ispitati koliko se puta slovo pojavljuje u rijeci
 				}
 			}
 			break; // obavezno prekidanje for petlje nakon što je ispitano pojavljuje li se slovo u rijeci
@@ -39,7 +39,7 @@ int main() {
 		printf("ne ");
 	}
 	
-	printf("pojavljuje u recenici!\n");
+	printf("pojavljuje u predpredzadnjoj rijeci u recenici!\n");
 
 	return 0;
 }
