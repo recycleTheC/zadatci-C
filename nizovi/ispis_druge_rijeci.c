@@ -14,21 +14,23 @@ int main() {
 
 	d = strlen(r);
 
-	printf("Druga rijec recenice: ");
-
 	for (i = 0; i < d; i++) {
 		if (r[i] == ' ') {
 			n++;
 		}
 		if (n == 1) {
-			printf("%c", r[i+1]);
-		}
-		if (n == 2) {
+			printf("Druga rijec recenice: ");
+			for (i=i+1; i < d && r[i] != ' '; i++) {
+				printf("%c", r[i]);
+			}
+			printf("\n");
 			break;
 		}
 	}
 
-	printf("\n");
+	if (n == 0) {
+		printf("Recenica ima samo jednu rijec!\n");
+	}
 
 	return 0;
 }
