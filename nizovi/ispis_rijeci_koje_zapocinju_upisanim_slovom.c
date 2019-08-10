@@ -19,7 +19,7 @@ int main() {
 	d = strlen(r);
 
 	for (i = 0; i < d; i++) {
-		if (r[i] == s && r[i - 1] == ' ') { // ispitivanje postoji li rijec koja pocinje na upisano slovo
+		if (r[i] == s && (r[i - 1] == ' ' || i == 0)) { // ispitivanje postoji li rijec koja pocinje na upisano slovo
 			st++;
 			break;
 		}
@@ -32,8 +32,8 @@ int main() {
 		printf("Rijeci u recenici koja zapocinju slovom '%c':\n", s);
 
 		for (i = 0; i < d; i++) {
-			if (r[i] == s && r[i - 1] == ' ') {
-				for (i; i < d && r[i] != ' ';i++) {
+			if (r[i] == s && (r[i - 1] == ' ' || i == 0)) {
+				for (i; i < d && r[i] != ' '; i++) { // for petlja se izvršava dok je i<d I dok r[i] ne sadrži razmak
 					printf("%c", r[i]);
 				}
 				printf("\n");
