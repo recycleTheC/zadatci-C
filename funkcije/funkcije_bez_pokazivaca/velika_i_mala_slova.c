@@ -1,5 +1,5 @@
 // (c) recycleTheC - TSRB 2019.
-// Učitati rečenicu i u funkciji mala slova u rečenici zamjeniti velikima i obrnuto.
+// Učitati rečenicu i pomoću funkcije mala slova u rečenici zamjeniti velikima i obrnuto.
 // Nije dozvoljeno korištenje pokazivača!
 
 #include<stdio.h>
