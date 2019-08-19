@@ -1,0 +1,8 @@
+Izvjestaj o temperaturama
+
+Prosjecna temperatura: 24.57°C
+
+Gradovi s prosjecnom temperatorm vecom od prosjecne:
+zagreb 25.60°C
+karlovac 33.25°C
+pula 29.00°C

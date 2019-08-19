@@ -1,0 +1,5 @@
+zagreb 25.600000
+karlovac 33.250000
+pula 29.000000
+sibenik 23.000000
+bjelovar 12.000000
