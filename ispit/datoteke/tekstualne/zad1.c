@@ -1,6 +1,6 @@
 // (c) recycleTheC - TSRB 2019.
 // Učitati 5 brojeva i upisati ih u datoteku.
-// Pročitati brojeve iz datoteke i u datoteku 'rezultat.txt' upisati je li učitani broj paran ili neparan.
+// Pročitati brojeve iz datoteke i u datoteku upisati je li učitani broj paran ili neparan.
 // Rezultate upisati u datoteku u obliku: 
 // "2 paran"
 // "7 neparan"

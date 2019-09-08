@@ -34,8 +34,7 @@ int main() {
 		scanf("%d", &sel);
 	}
 
-	fseek(fp, 0, SEEK_SET);
-	fseek(fp, sizeof(broj) * sel, SEEK_CUR);
+	fseek(fp, sizeof(broj) * sel, SEEK_SET);
 	fread(&broj, sizeof(broj), 1, fp);
 
 	printf("Broj na %d. mjestu: %f", sel, broj);

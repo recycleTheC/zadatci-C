@@ -18,7 +18,7 @@ int main() {
 	struct ucenici uc[5], temp;
 	FILE* fp;
 
-	fp = fopen("ucenici.bin", "w+");
+	fp = fopen("ucenici.bin", "w");
 
 	if (fp == NULL) {
 		printf("Greska pri otvaranju datoteke!\n");
@@ -31,13 +31,18 @@ int main() {
 		fwrite(&uc[i], sizeof(struct ucenici), 1, fp);
 	}
 
-	fseek(fp, 0, SEEK_SET);
+	fclose(fp);
+
+	fp = fopen("ucenici.bin", "r");
+
+	if (fp == NULL) {
+		printf("Greska pri otvaranju datoteke!\n");
+		exit(1);
+	}
 
 	for (i = 0; i < 5; i++) {
 		fread(&uc[i], sizeof(struct ucenici), 1, fp);
 	}
-
-	fseek(fp, 0, SEEK_SET);
 
 	for (i = 0; i < 5-1; i++) {
 		for (j = i + 1; j < 5; j++) {
@@ -47,6 +52,15 @@ int main() {
 				uc[j] = temp;
 			}
 		}
+	}
+
+	fclose(fp);
+
+	fp = fopen("ucenici.bin", "w");
+
+	if (fp == NULL) {
+		printf("Greska pri otvaranju datoteke!\n");
+		exit(1);
 	}
 
 	printf("Rang lista ucenika:\n");

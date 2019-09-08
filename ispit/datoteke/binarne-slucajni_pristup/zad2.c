@@ -1,5 +1,5 @@
 // (c) recycleTheC - TSRB 2019.
-// Učitati 5 riječi u datoteku. Pročitati rijeli iz datoteke i ispisati ih od zadnje.
+// Učitati 5 riječi u datoteku. Pročitati riječi iz datoteke i ispisati ih od zadnje.
 
 #include<stdio.h>
 #include<stdlib.h>

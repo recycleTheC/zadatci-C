@@ -23,7 +23,7 @@ int main() {
 
 	for (i = 0; i < 5; i++) {
 		printf("Upisi %d. rijec: ", i + 1);
-		gets(rijec);
+		scanf("%s", rijec);
 		fprintf(fp, "%s\n", rijec);
 	}
 
@@ -37,10 +37,10 @@ int main() {
 	}
 
 	printf("Upisi jos jednu rijec: ");
-	gets(dod);
+	scanf("%s", dod);
 
 	for (i = 0; i < 5; i++) {
-		fscanf(fp, "%s\n", rijec);
+		fscanf(fp, "%s\n", &rijec);
 		if (strcmp(rijec, dod) == 0) {
 			n++;
 		}
