@@ -1,6 +1,7 @@
 # Riješeni zadatci iz predmeta Algoritmi i programiranje
 
 U ovom repozitoriju nalaze se riješeni zadatci iz predmeta Algoritmi i programiranje.
+Zadatci služe **isključivo kao primjer**, mogu biti korisni kod vježbanja i usavršavanja vlastitog znanja.
 Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!
 
 ## Gradivo
