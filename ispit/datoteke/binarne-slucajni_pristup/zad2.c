@@ -26,7 +26,7 @@ int main() {
 	printf("Rijeci upisane u datoteku pocevsi od zadnje: \n");
 
 	for (i = 0; i < 5; i++) {
-		fseek(fp, -(i + 1) * sizeof(rijec), SEEK_END);
+		fseek(fp, -(i + 1) * sizeof(rijec), SEEK_END); // pokazivač fp, pomiče se (-) unatrag za (i+1)*sizeof(rijec), od kraja (SEEK_END)
 		fread(rijec, sizeof(rijec), 1, fp);
 		printf("%s\n", rijec);
 	}
