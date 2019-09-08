@@ -14,6 +14,7 @@ _**Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadata
 ### [Enumeracije](enumeracija/)
 ### [Rad s bitovima](bitovi/)
 
-Ukoliko uočite pogrešku u kodu, prijavite ju putem GitHuba!
-
-// (c) recycleTheC 2019. - Tehnička škola Ruđera Boškovića
+**Ukoliko uočite pogrešku u kodu, prijavite ju putem GitHuba!**\
+Tako pomažete autoru u ispravljanju pogrešaka i povećavate svoje znanje iz programiranja. :wink:\
+<br>
+(c) recycleTheC 2019. - Tehnička škola Ruđera Boškovića
