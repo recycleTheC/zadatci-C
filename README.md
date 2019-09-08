@@ -1,7 +1,8 @@
 # Riješeni zadatci iz predmeta Algoritmi i programiranje
 
-U ovom repozitoriju nalaze se riješeni zadatci iz predmeta Algoritmi i programiranje.
-Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!
+U ovom repozitoriju nalaze se riješeni zadatci iz predmeta Algoritmi i programiranje.\
+Zadatci služe **isključivo kao primjer**, mogu biti korisni kod vježbanja i usavršavanja vlastitog znanja.\
+_**Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!**_
 
 ## Gradivo
 
@@ -13,6 +14,7 @@ Autor se ograđuje od odgovornosti za točnost i ispravnost riješenih zadataka!
 ### [Enumeracije](enumeracija/)
 ### [Rad s bitovima](bitovi/)
 
-Ukoliko uočite pogrešku u kodu, prijavite ju putem GitHuba!
-
-// (c) recycleTheC 2019. - Tehnička škola Ruđera Boškovića
+**Ukoliko uočite pogrešku u kodu, prijavite ju putem GitHuba!**\
+Tako pomažete autoru u ispravljanju pogrešaka i povećavate svoje znanje iz programiranja. :wink:\
+<br>
+(c) recycleTheC 2019. - Tehnička škola Ruđera Boškovića
